@@ -77,7 +77,7 @@ public class OpenPgpListPreference extends DialogPreference {
         // add "none"-entry
         mList.add(0, new OpenPgpProviderEntry("",
                 getContext().getString(R.string.openpgp_list_preference_none),
-                getContext().getResources().getDrawable(R.drawable.ic_action_cancel_launchersize_light)));
+                getContext().getResources().getDrawable(R.drawable.ic_action_cancel_launchersize)));
         
         // add all additional (legacy) providers
         mList.addAll(mLegacyList);
